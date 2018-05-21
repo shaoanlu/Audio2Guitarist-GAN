@@ -8,7 +8,7 @@ A two-stage GANs that generates images of guitarists playing guitar from audio.
   [To be updated]
   
 ## Result
-The following gifs are images generated from an audio that the model had never seen. It shows that the model is capable of generating binary mask at proper spacial position corresponding to the audio. The positions of fingers on the fretboard are also close to the ground truth.
+The following gifs are images generated from an audio that the model had never seen. It shows that the model is capable of generating binary mask at proper spacial position corresponding to the given audio.  Also, the finger positions are quite close to the ground truth.
   - **Source video: [tupliのテーマ (acoustic guitar solo) 作曲／編曲：南澤大介](https://www.youtube.com/watch?v=ApbNNhVVsG8))**
 
 ### Top: ground truth; Middle: stage 1 output; Bottom: stage 2 output.
