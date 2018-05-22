@@ -16,7 +16,7 @@ Different input condition images result different output. (Top: ground truth; Mi
 
 ![blue](https://www.dropbox.com/s/b07rhz3mi51x77m/tupli_blue.gif?raw=1) ![plive](https://www.dropbox.com/s/zac7dho5o2v8o6a/tupli_green.gif?raw=1) ![wine](https://www.dropbox.com/s/r7n8ybyf4aawlgu/tupli_wine.gif?raw=1)
 
-### 2. Body dynamics
+### 2. Body movement
 The model generates guitarist videos with body dynamics. (Left: w/o body dynamics; Right: w/ body dynamics.)
 
 ![body_dynamics](https://www.dropbox.com/s/mr9rj756f3fik8k/comp_tupli_body_dynamics.gif?raw=1)
