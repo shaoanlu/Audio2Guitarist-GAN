@@ -11,6 +11,12 @@ A two-stage generative adversarial networks that generates images of guitarists 
 The following gifs are images generated from an audio that the model had never seen. They show that the model is capable of generating binary mask at proper spacial position corresponding to the given audio.  Also, the finger positions are quite close to the ground truth.
   - **Source video (audio): [tupliのテーマ (acoustic guitar solo) 作曲／編曲：南澤大介](https://www.youtube.com/watch?v=ApbNNhVVsG8))**
 
-### Top: ground truth; Middle: stage 1 output; Bottom: stage 2 output.
+### 1. Conditional output
+Different input condition images result different output. (Top: ground truth; Middle: stage 1 output; Bottom: stage 2 output.)
 
 ![blue](https://www.dropbox.com/s/b07rhz3mi51x77m/tupli_blue.gif?raw=1) ![plive](https://www.dropbox.com/s/zac7dho5o2v8o6a/tupli_green.gif?raw=1) ![wine](https://www.dropbox.com/s/r7n8ybyf4aawlgu/tupli_wine.gif?raw=1)
+
+### 2. Body dynamics
+The model generates guitarist videos with body dynamics. (Left: w/o body dynamics; Right: w/ body dynamics.)
+
+![body_dynamics](https://www.dropbox.com/s/mr9rj756f3fik8k/comp_tupli_body_dynamics.gif?raw=1)
