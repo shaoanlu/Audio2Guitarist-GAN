@@ -20,4 +20,4 @@ Different input condition images result different outputs. (Top: ground truth; M
 The model generates guitarist videos given conditional poses. (Top: Reference video; Middle: one of the conditional pose input; Bottom: stage 2 output.)
   - **Source video (audio): [John Pizzarelli - "I Got Rhythm" (solo) at the Fretboard Journal](https://www.youtube.com/watch?v=vVNVJGLVFCk)**
 
-![JP_guided_pose1](https://www.dropbox.com/s/mldgg1yg194ntcj/jp_guided_pose_hires_01.gif?raw=1) ![JP_guided_pose2](https://www.dropbox.com/s/iiol6c239nnkkm3/jp_guided_pose_hires_02.gif?raw=1)
+![JP_guided_pose1](https://www.dropbox.com/s/mldgg1yg194ntcj/jp_guided_pose_hires_01.gif?raw=1) ![JP_guided_pose2](https://www.dropbox.com/s/z1m6h7oxslysvgc/jp_guided_pose_hires_02.gif?raw=1)
