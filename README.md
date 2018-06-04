@@ -13,10 +13,10 @@ A two-stage generative adversarial network that generates images of guitarists p
 ## Result
 
 ### 1. Conditional output
-The following gifs are result images generated from an audio that the model had never seen. (Top: ground truth; Middle: stage 1 output; Bottom: stage 2 output)
+The following gifs are result images generated from an audio that the model had never seen. (Top to bottom: audio visualization, stage-1 output, stage-2 output, ground truth.)
   - **Source video (audio): [tupliのテーマ (acoustic guitar solo) 作曲／編曲：南澤大介](https://www.youtube.com/watch?v=ApbNNhVVsG8)**
 
-![blue](https://www.dropbox.com/s/b07rhz3mi51x77m/tupli_blue.gif?raw=1) ![plive](https://www.dropbox.com/s/zac7dho5o2v8o6a/tupli_green.gif?raw=1) ![wine](https://www.dropbox.com/s/r7n8ybyf4aawlgu/tupli_wine.gif?raw=1)
+![blue](https://www.dropbox.com/s/3atfluro1piv5dl/tupli_blue_audiovis.gif?raw=1) ![olive](https://www.dropbox.com/s/85s4pxthxp2djlp/tupli_olive_audiovis.gif?raw=1) ![wine](https://www.dropbox.com/s/6hjcq4xy4ctkd11/tupli_wine_audiovis.gif?raw=1)
 
 ### 2. Pose-guided generation
 The following gifs show outputs of 2nd-stage model given conditional poses. (Top: Reference video; Middle: conditional hands input; Bottom: stage 2 output.) 
