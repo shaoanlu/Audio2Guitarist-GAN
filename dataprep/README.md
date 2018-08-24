@@ -29,10 +29,24 @@ Note: The dependencies required for data preparation are not specified in main p
   - **Output format:**
     - `fretboard_masks/fretboard_masks_[VIDEO_NAME].jpg`.
     - ex: `fretboard_masks/fretboard_masks_TrnVideo123.jpg`.
+### 4. RGB image
+  - **Dependency**: None
+  - **Method**: Save every frames as a rgb image. (1 image per frame)
+  - **Output format:**
+    - `ims_rgb/rgb_[VIDEO_NAME]_frame[FRAME].jpg`.
+    - ex: `ims_rgb/rgb_TrnVideo123_frame456.jpg`.
   
 ## Feature extraction
 
-### 1. Audio features
+### Audio features extraction
   - CQT, LogMel, LogMel (delta), Chroma, Chroma (delta), Pitch
     - Pitch features are extracted using [CREPE](https://github.com/marl/crepe), the remains are extracted using librosa.
+    - Normalized to [0,1] (except delta features).
   - Code can be found in [librosa_feats_extraction.ipynb]().
+  - Output files:
+    - `./npy/[VIDEO_NAME]_cqt.npy`, `./npy/[VIDEO_NAME]_chroma.npy`, `./npy/[VIDEO_NAME]_logmelspec.npy`, and `./npy/[VIDEO_NAME]_pitch.npy`.
+  
+## Preprocessing
+### Alignment
+  - Align joint heatmaps, hand masks, and fretboard masks.
+  - Code can be found in [align_heatmaps.ipynb]().
