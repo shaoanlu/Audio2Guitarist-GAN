@@ -25,3 +25,6 @@ The following gifs show outputs of 2nd-stage model given conditional poses.
   - Top: Reference video; Middle: conditional hands input; Bottom: stage 2 output.
 
 ![JP_guided_pose1](https://www.dropbox.com/s/mldgg1yg194ntcj/jp_guided_pose_hires_01.gif?raw=1) ![JP_guided_pose2](https://www.dropbox.com/s/z1m6h7oxslysvgc/jp_guided_pose_hires_02.gif?raw=1)
+
+### 3. Video output
+[TBU]
