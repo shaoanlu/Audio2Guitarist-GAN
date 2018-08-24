@@ -6,7 +6,7 @@ A two-stage generative adversarial network that generates images of guitarists p
 
 ## Architecture
 ### Stage 1: Audio to binary mask  
-  [To be updated]
+  ![stage1_arch](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/stage1_arch.jpg)
 ### Stage 2: Binary mask to color image
   [To be updated]
   
