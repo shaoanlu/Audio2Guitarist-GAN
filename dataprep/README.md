@@ -22,14 +22,14 @@ Note: The dependencies required for data preparation are not specified in main p
   - **Output format:**
     - `./ims_heatmap/heatmap[i]_[VIDEO_NAME]_frame[FRAME].jpg`. `[i]` = 0 ~ 6
     - ex: `./ims_heatmap/heatmap0_TrnVideo123_frame456.jpg`.
-### 3. Fretboard mask
+### 3. Fretboard masks
   - **Dependency:** None
   - **Method:** Hand label (segment) a binary mask of the fretboard for each training video from an averaged rgb image over all frames. Only segment out frets after the capo fret. (1 mask per video)
   - ![fbm](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/fretboard.jpg)
   - **Output format:**
     - `fretboard_masks/fretboard_masks_[VIDEO_NAME].jpg`.
     - ex: `fretboard_masks/fretboard_masks_TrnVideo123.jpg`.
-### 4. RGB image
+### 4. RGB images
   - **Dependency**: None
   - **Method**: Save every frames as a rgb image. (1 image per frame)
   - **Output format:**
@@ -38,7 +38,7 @@ Note: The dependencies required for data preparation are not specified in main p
   
 ## Feature extraction
 
-### Audio features extraction
+### Audio features
   - CQT, LogMel, LogMel (delta), Chroma, Chroma (delta), Pitch
     - Pitch features are extracted using [CREPE](https://github.com/marl/crepe), the remains are extracted using librosa.
     - Normalized to [0,1] (except delta features).
