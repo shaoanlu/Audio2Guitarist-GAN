@@ -24,7 +24,7 @@ Note: The dependencies required for data preparation are not specified in main p
     - ex: `./ims_heatmap/heatmap0_TrnVideo123_frame456.jpg`.
 ### 3. Fretboard mask
   - **Dependency:** None
-  - **Method:** Hand labeling (segmenting) a binary mask of the fretboard for each training video using an averaged rgb image over all frames. (1 mask per video)
+  - **Method:** Hand labeling (segmenting) a binary mask of the fretboard for each training video using an averaged rgb image over all frames. Only segment out frets after the capo fret. (1 mask per video)
   - ![fbm](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/fretboard.jpg)
   - **Output format:**
     - `fretboard_masks/fretboard_masks_[VIDEO_NAME].jpg`.
