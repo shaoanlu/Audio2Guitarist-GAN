@@ -28,3 +28,11 @@ The following gifs show outputs of 2nd-stage model given conditional poses.
   - Top: Reference video; Middle: conditional hands input; Bottom: stage 2 output.
 
 ![JP_guided_pose1](https://www.dropbox.com/s/mldgg1yg194ntcj/jp_guided_pose_hires_01.gif?raw=1) ![JP_guided_pose2](https://www.dropbox.com/s/z1m6h7oxslysvgc/jp_guided_pose_hires_02.gif?raw=1)
+
+## References
+1. [Audio to Body Dynamics](https://arviolin.github.io/AudioBodyDynamics/)
+2. [Pose guided person image generation](https://arxiv.org/pdf/1705.09368.pdf)
+3. [Deep Video Generation, Prediction and Completion of Human Action Sequences](https://arxiv.org/pdf/1711.08682.pdf)
+4. [Deformable GANs for Pose-based Human Image Generation](https://arxiv.org/pdf/1801.00055.pdf)
+5. [Skeleton-aided Articulated Motion Generation](https://arxiv.org/pdf/1707.01058.pdf)
+6. [Assessment of Student Music Performances Using Deep Neural Networks](http://www.mdpi.com/2076-3417/8/4/507)
