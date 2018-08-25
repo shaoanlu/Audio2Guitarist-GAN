@@ -13,7 +13,22 @@ A two-stage generative adversarial network that generates images of guitarists p
 ## Result
 
 ### 1. Video output
-[TBU]
+  - **Case 1: Test on the same guitarist, 南澤大介.**
+    - **Video 1: トゥ・ビー・ウィズ・ユー (acoustic guitar solo)**
+      - Result video [here](https://drive.google.com/open?id=1GnDKuxnZTCC5_23AyzVGp0hmlylGojnI).
+      - Source YouTube video [here](https://www.youtube.com/watch?v=23nEZocwINo).
+    - **Video 2: 愛はかげろうのように (acoustic guitar solo)**
+      - Result video [here](https://drive.google.com/open?id=1WWVdGX-XQsl48tGQaQR0b64BNxCNq6cv).
+      - Source YouTube video [here](https://www.youtube.com/watch?v=fh879tYOsYc).
+  - **Case 2: Test on different guitarist, 伍々慧. The playing style and recording are different from the training data.**
+    - **Video 3: Autumn Leaves (early version) / Satoshi Gogo**
+      - Result video [here](https://drive.google.com/open?id=1txtLXhXmdtCV2qE5cReXLJqNQkbdRBtv).
+      - Source YouTube video [here](https://www.youtube.com/watch?v=F1nFu1lE9Hg).
+    - **Video 4: I got rhythm / Satoshi Gogo**
+      - Result video [here](https://drive.google.com/open?id=17JAQCfWU-gkzGDo4dQ0O9OBNr0-BqfIO).
+      - Source YouTube video [here](https://www.youtube.com/watch?v=44g26JcKqHM).
+      
+###### Here are the official website of [南澤大介](http://www.bsvmusic.com) and [伍々慧](https://www.gogosatoshi.com).
 
 ### 2. Conditional output
 The following gifs are result images generated from an audio that the model had never seen. 
