@@ -27,6 +27,8 @@ A two-stage generative adversarial network that generates images of guitarists p
     - **Video 4: I got rhythm / Satoshi Gogo**
       - Result video [here](https://drive.google.com/open?id=17JAQCfWU-gkzGDo4dQ0O9OBNr0-BqfIO).
       - Source YouTube video [here](https://www.youtube.com/watch?v=44g26JcKqHM).
+  - **Case 3: Test on different instruments and human voice.**
+    - [TBU]
       
 ###### Here are the official website of [南澤大介](http://www.bsvmusic.com) and [伍々慧](https://www.gogosatoshi.com).
 
