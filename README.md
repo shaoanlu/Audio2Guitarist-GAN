@@ -1,6 +1,8 @@
 # Audio2Guitarist-GAN
 A two-stage generative adversarial network that generates images of guitarists playing guitar from audio.
 
+![a2g_gif](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/a2g_gif010203.gif)
+
 ## Descriptions
   [To be updated]
 
