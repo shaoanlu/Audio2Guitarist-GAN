@@ -4,13 +4,15 @@ A two-stage generative adversarial network that generates images of guitarists p
 ![a2g_gif](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/a2g_gif010204.gif)
 
 ## Descriptions
-  [To be updated]
+  To be updated.
 
 ## Architecture
 ### Stage 1: Audio to binary mask  
   ![stage1_arch](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/stage1_arch.jpg)
 ### Stage 2: Binary mask to color image
   ![stage2_arch](https://github.com/shaoanlu/Audio2Guitarist-GAN/raw/master/readme_ims/stage2_arch.jpg)
+
+More information in this [blog post](https://shaoanlu.wordpress.com/2018/09/12/lets-train-gans-to-play-guitar/).
   
 ## Result
 
